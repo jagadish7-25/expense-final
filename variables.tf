@@ -43,6 +43,4 @@ variable "is_peering_required" {
    }
  }
 
- variable "vpc_id" {
-   
- }
+ 
