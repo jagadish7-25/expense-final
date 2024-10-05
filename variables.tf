@@ -35,3 +35,14 @@ variable "is_peering_required" {
   type = bool
   default = false
 }
+
+
+ variable "mysql_sg_tags" {
+   default = {
+    component = "mysql"
+   }
+ }
+
+ variable "vpc_id" {
+   
+ }
