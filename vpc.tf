@@ -1,7 +1,7 @@
 module "vpc" {
 #     source = "../expense-latest"
 
-    source = "git::https://github.com/jagadish7-25/expense-latest.git?ref=main"
+    source = "git::https://github.com/jagadish7-25/expense-latest.git"
     project_name = var.project_name
     environment = var.environment 
     common_tags = var.common_tags
